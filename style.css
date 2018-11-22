@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+#score {
+    width: 632px;
+    height: 60px;
+    padding-top: 5px;
+    margin: 2px auto;
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#canvas {
+    width: 632px;
+    height: 632px;
+    display: block;
+    margin: 2px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+#keyUp, #keyLeft, #keyRight, #keyDown, #keyCenter {
+    width: 102px;
+    height: 60px;
+    text-align: center;
+
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-size: 2rem;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+#keyLeft, #keyRight, #keyCenter {
+    float: left;
+}
+#keyUp, #keyDown, #middle {
+    margin: 2px auto;
+}
+#middle {
+    width: 306px;
+}
